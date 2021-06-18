@@ -1,0 +1,18 @@
+.myCart {
+    padding: 32px;
+    background-color: $color-soft-green;
+    color: $color-soft-white;
+    width: 100vw;
+
+    &-title {
+        font-weight: 400;
+    }
+
+    &-list {
+        list-style-type: none;
+
+        &-item {
+            color: $color-soft-white;
+        }
+    }
+}

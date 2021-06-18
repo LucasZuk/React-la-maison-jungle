@@ -1,0 +1,54 @@
+.lmj {
+    &-sales {
+        z-index: 100;
+        position: absolute;
+        right: 30px;
+        top: -10px;
+        font-weight: 500;
+        color: white;
+        padding: 5px 10px;
+        background-color: #31b572;
+    }
+
+    &-plant {
+        &-list {
+            list-style-type: none;
+            padding: 32px;
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+        &-item {
+            height: 150px;
+            width: 150px;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+
+            &-name {
+                display: flex;
+            }
+        }
+    }
+
+    &-category {
+        &-list {
+            list-style-type: none;
+            padding: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+
+        &-item {
+            margin-left : 1em;
+            margin-right: 1em;
+            
+        }
+    }
+}
+

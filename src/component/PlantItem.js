@@ -10,6 +10,7 @@ class PlantItem extends (React.Component) {
         const plant = this.props.plant;
         return (
             <li className='lmj-plant-item' onClick={()=> sparkles(plant.name)}>
+                {plant.isSpecialOffer && <div className="lmj-sales">En solde</div>}
                 <img className='lmj-plant-item-cover' src={plant.cover} />
                 <PlantName plant={plant}/>
                 <div>

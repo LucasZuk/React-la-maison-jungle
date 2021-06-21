@@ -8,7 +8,6 @@ class PlantName extends (React.Component) {
             <div className="lmj-plant-list-item-name">
                 {plant.name} 
                 {plant.isBestSale && <span>🔥</span>} 
-                {plant.isSpecialOffer && <div className="lmj-sales">En solde</div>}
             </div>
         )
     }

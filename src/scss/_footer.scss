@@ -1,0 +1,32 @@
+.lmj-footer {
+	color: black;
+	padding: 0 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    &-elem {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        & caption {
+            width: 80vw;
+        }
+
+        & input {
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20vw;
+        }
+        
+        
+    }
+}
